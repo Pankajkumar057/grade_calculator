@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>GRADING SYSTEM ASSIGNMENT</div>
+        <section class="sub-section-1">
+            <h1>Grading System In Js</h1>
+            <div class>
+                <div class="form-group">
+                    <label for="english">English</label>
+                    <input type="text" class="form-control" id="english" >
+                </div>
+
+                <div class="form-group">
+                    <label for="math">Math</label>
+                    <input type="text" class="form-control"  id="math">
+                </div>
+
+                <div class="form-group">
+                    <label for="physics">Physics</label>
+                    <input type="text" class="form-control"  id="physics">
+                </div>
+
+                <div class="form-group">
+                    <label for="chemistry">Chemistry</label>
+                    <input type="text" class="form-control"  id="chemistry">
+
+                </div>
+                <div class="form-group">
+                    <label for="computer">Computer</label>
+                    <input type="text" class="form-control"  id="computer">
+                    
+                </div>
+
+                <input type="button" class="form-control"  value="calculate grade" class="form-button" onclick=""calculate()>
+            </div>
+            <div class="form-group showdata">
+
+                <p id="showdata"></p>
+    
+            </div>
+        </section>
+        <section class="sub-section-2">
+            <div id="total">Total</div>
+            <div id="average">Average</div>
+            <div id="grade">Grade</div>
+        </section>
+    </div>
+</body>
+
+</html>
